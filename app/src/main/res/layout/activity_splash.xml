@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <TextView
+        android:id="@+id/sparkText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sparkImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Street Squadrones"
+        android:textColor="#803A99"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sparkImg"
+        android:layout_width="321dp"
+        android:layout_height="302dp"
+        android:layout_centerInParent="true"
+        android:paddingStart="30dp"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slang"
+        android:layout_below="@id/sparkImg"
+        android:text="Safety isn't expensive, It's priceless"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="get started" />
+
+
+</RelativeLayout>
